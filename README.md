@@ -9,16 +9,16 @@
 <br />
 <div align="center">
   <p align="center">
-    <a href="" target="blank"><img src="logo.svg" width="180" alt="Logo" /></a>
+    <a href="https://github.com/renatosouzaBR/new-react-library" target="blank"><img src="example/public/logo192.png" width="60" alt="Logo" /></a>
   </p>
 
   <p align="center">
-    Descrição breve do componente
+    Boilerplate para criação de bibliotecas ReactJS + Styled Components
     <br />
     <br />
-    <a href="link para issue">Reportar um problema</a>
+    <a href="https://github.com/renatosouzaBR/new-react-library/issues">Reportar um problema</a>
     ·
-    <a href="link para issue">Solicitar nova feature</a>
+    <a href="https://github.com/renatosouzaBR/new-react-library/issues">Solicitar nova feature</a>
   </p>
 </div>
 
@@ -26,13 +26,11 @@
 
 ## Sobre o projeto
 
-Você deve dizer os motivos e problemas que te levaram a criar esse componente, assim como o que ele tende a resolver.
+Quero compartilhar esse template para criação de bibliotecas ReactJS + Styled Components. Após muita pesquisa e testes enfim cheguei em um modelo totalmente funcional e que já foi utilizado em uma lib do meu repositório.
 
 <p align="right">(<a href="#top">voltar ao topo</a>)</p>
 
 ### Desenvolvido com:
-
-Libs que você utilizou para criar o componente.
 
 - [ReactJS](https://pt-br.reactjs.org)
 - [Styled Component](https://styled-components.com/)
@@ -42,41 +40,35 @@ Libs que você utilizou para criar o componente.
 
 <!-- GETTING STARTED -->
 
-## Começando
-
-Siga as etapas para ter o componente instalado e funcionando em seu projeto.
-
-### Requisitos necessários
-
-Quais libs devem ser instaladas antes de instalar seu componente?
-
-### Instalação
-
-Passo a passo de instalação do componente.
-
-<p align="right">(<a href="#top">voltar ao topo</a>)</p>
-
-<!-- USAGE EXAMPLES -->
-
 ## Como utilizar
 
-Aqui você pode adicionar um código de uso do seu componente, por exemplo, o código feito no projeto de exemplo localizado na pasta "example",
+Para utilizar esse template clique no botão "Use this template" no topo dessa página e siga as instruções do GitHub.
 
-- Adicione como tabela as propriedade e detalhes de como configurar seu componente caso seja necessario.
+### Estrutura
 
-| Propriedade |       |           |
-| ----------- | ----- | --------- |
-| nome        | prop1 | descrição |
-|             | prop2 | descrição |
-|             | prop3 | descrição |
+Na raiz do projeto, mais especificamente na pasta **src**, é onde deve ficar a estrutura de seu componente. Adicione na pasta **assets** imagens de icones, etc. Na pasta **components** deve ficar o componentes que fazem a composição da sua biblioteca. No **index.tsx** e **styles.ts** deve conter a implementação do seu componente. Siga as instruções abaixo para compilar seu projeto.
 
-<p align="right">(<a href="#top">voltar ao topo</a>)</p>
+```sh
+# instale as dependências
+npm install OU yarn
 
-<!-- ROADMAP -->
+# execute o comando para que seu projeto seja compilado
+# a cada alteração é feito o hot-reload do projeto
+npm run build OU yarn build
+```
 
-## Roteiro
+A pasta **example** contém um projeto de teste, que faz a importação direta do seu componente para visualização durante o desenvolvimento. Para utilizar esse projeto siga as instruções abaixo:
 
-- [x] Passo a passo do que deve ser ou já foi desenvolvido.
+```sh
+# navegue até a pasta example
+cd example
+
+# instale as dependências
+npm install OU yarn
+
+# inicie o projeto
+npm run start OU yarn start
+```
 
 <p align="right">(<a href="#top">voltar ao topo</a>)</p>
 
@@ -128,24 +120,19 @@ SOFTWARE.
 
 ## Contatos
 
-contato1 - [Linkedin](linkdeperfil)
+Renato Souza - [Linkedin](www.linkedin.com/in/renato-alves-de-souza-33422772) - natoicm@gmail.com
 
-GitHub: [link](linkdogithub)
+GitHub: [https://github.com/renatosouzaBR](https://github.com/renatosouzaBR)
 
 <p align="right">(<a href="#top">voltar ao topo</a>)</p>
 
 <!-- ACKNOWLEDGMENTS -->
 
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-
-<!-- Troque renatosouzaBR/mytopbar por nomedeusuario/nomedeprojeto -->
-
-[contributors-shield]: https://img.shields.io/github/contributors/renatosouzaBR/mytopbar.svg?style=for-the-badge
-[contributors-url]: https://github.com/renatosouzaBR/mytopbar/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/renatosouzaBR/mytopbar.svg?style=for-the-badge
-[forks-url]: https://github.com/renatosouzaBR/mytopbar/network/members
-[stars-shield]: https://img.shields.io/github/stars/renatosouzaBR/mytopbar.svg?style=for-the-badge
-[stars-url]: https://github.com/renatosouzaBR/mytopbar/stargazers
-[issues-shield]: https://img.shields.io/github/issues/renatosouzaBR/mytopbar.svg?style=for-the-badge
-[issues-url]: https://github.com/renatosouzaBR/mytopbar/issues
+[contributors-shield]: https://img.shields.io/github/contributors/renatosouzaBR/new-react-library.svg?style=for-the-badge
+[contributors-url]: https://github.com/renatosouzaBR/new-react-library/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/renatosouzaBR/new-react-library.svg?style=for-the-badge
+[forks-url]: https://github.com/renatosouzaBR/new-react-library/network/members
+[stars-shield]: https://img.shields.io/github/stars/renatosouzaBR/new-react-library.svg?style=for-the-badge
+[stars-url]: https://github.com/renatosouzaBR/new-react-library/stargazers
+[issues-shield]: https://img.shields.io/github/issues/renatosouzaBR/new-react-library.svg?style=for-the-badge
+[issues-url]: https://github.com/renatosouzaBR/new-react-library/issues
